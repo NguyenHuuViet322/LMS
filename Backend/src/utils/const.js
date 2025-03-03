@@ -1,0 +1,118 @@
+const ROLE = {
+	STUDENT: "STUDENT",
+	TEACHER: "TEACHER",
+	ACADEMIC_AFFAIR: "ACADEMIC_AFFAIR",
+	ADMIN: "ADMIN",
+
+	values: ["STUDENT", "TEACHER", "ACADEMIC_AFFAIR", "ADMIN"]
+};
+
+const SORT = {
+	ASC: "ASC",
+	DESC: "DESC",
+
+	values: ["ASC", "DESC"]
+};
+
+const TAG_MODE = {
+	AND: "AND",
+	OR: "OR",
+
+	values: ["AND", "OR"]
+};
+
+const TAG_TYPE = {
+	SUBJECT: "SUBJECT",
+	GRADE: "GRADE",
+
+	values: ["SUBJECT", "GRADE"]
+};
+
+const BLOG_TYPE = {
+	POST: "POST",
+	DOCUMENT: "DOCUMENT",
+
+	values: ["POST", "DOCUMENT"]
+};
+
+const MEMBER_STATUS = {
+	PENDING: "PENDING",
+	APPROVED: "APPROVED",
+	REJECTED: "REJECTED",
+
+	values: ["PENDING", "APPROVED", "REJECTED"]
+};
+
+const ASSIGNMENT_TYPE = {
+	EXCERCISE: "EXCERCISE",
+	TEST: "TEST",
+	values: ["EXCERCISE", "TEST"]
+};
+
+const LESSON_STATUS = {
+	NORMAL: "NORMAL",
+	DATE_ALTERED: "DATE_ALTERED",
+	SHIFT_ALTERED: "SHIFT_ALTERED",
+	ROOM_ALTERED: "ROOM_ALTERED",
+	CANCELLED: "CANCELLED",
+
+	values: ["NORMAL", "DATE_ALTERED", "SHIFT_ALTERED", "ROOM_ALTERED", "CANCELLED"]
+};
+
+const ROLL_CALL_STATUS = {
+	LATE: "LATE",
+	PERMITTED_ABSENT: "PERMITTED_ABSENT",
+	ABSENT: "ABSENT",
+
+	values: ["LATE", "PERMITTED_ABSENT", "ABSENT"]
+};
+
+const EXAM_TYPE = {
+	ENTRY_EXAM: "ENTRY_EXAM",
+	ASSIGNMENT: "ASSIGNMENT",
+
+	values: ["ENTRY_EXAM", "ASSIGNMENT"]
+};
+
+// Thằng Bách ép tôi thêm `OTHER` vì để làm gì thì tôi chưa rõ, nhưng tôi đã làm theo yêu cầu của thằng Bách rồi.
+const GENDER = {
+	MALE: "MALE",
+	FEMALE: "FEMALE",
+	OTHER: "OTHER",
+
+	values: ["MALE", "FEMALE", "OTHER"]
+};
+
+const AWARD_TYPE = {
+	IMAGE: "IMAGE",
+	DEGREE: "DEGREE",
+	CONTEST: "CONTEST",
+	PAPER: "PAPER",
+	OTHER: "OTHER",
+
+	values: ["IMAGE", "DEGREE", "CONTEST", "PAPER", "OTHER"]
+};
+
+const COURSE_TIME_STATUS = {
+	IN_PROGRESS: "IN_PROGRESS",
+	COMPLETED: "COMPLETED",
+	HAVE_NOT_STARTED: "HAVE_NOT_STARTED",
+
+	values: ["IN_PROGRESS", "COMPLETED", "HAVE_NOT_STARTED"]
+};
+
+export {
+	ROLE,
+	SORT,
+	TAG_MODE,
+	TAG_TYPE,
+	BLOG_TYPE,
+	ASSIGNMENT_TYPE,
+	MEMBER_STATUS,
+	LESSON_STATUS,
+	ROLL_CALL_STATUS,
+	GENDER,
+	AWARD_TYPE,
+	EXAM_TYPE,
+	COURSE_TIME_STATUS
+};
